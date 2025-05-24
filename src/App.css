@@ -9,7 +9,7 @@
   min-height: 100vh;
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  background-image: url(bground.jpg);
+  background-image: url('/bground.jpg');
   background-size: cover;
   color: black;
   text-align: center;
