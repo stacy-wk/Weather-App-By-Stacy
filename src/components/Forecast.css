@@ -1,0 +1,47 @@
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.222);
+  margin: 2rem auto;
+  padding: 0.5rem; 
+  border-radius: 30px;
+  width: 70%;
+  max-width: 1000px;
+}
+
+.forecast-day {
+  flex: 1 1 120px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.forecast-day img {
+  width: 3rem;
+}
+
+.forecast-day span {
+  color: #4888bd;
+}
+
+ .max-temperature {
+    padding: 0 1rem;
+  }
+
+.max-temperature,
+.min-temperature {
+  font-size: 1rem;
+  color: #4888bd;
+}
+
+@media (max-width: 500px) {
+  .forecast-day img {
+    width: 2.5rem;
+  }
+
+  .forecast-day {
+    font-size: 0.9rem;
+  }
+}
