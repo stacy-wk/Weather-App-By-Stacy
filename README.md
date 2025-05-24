@@ -21,8 +21,8 @@ A responsive React weather app that allows users to search for any city and view
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/weatherdashboard.git
-   cd weatherdashboard
+   git clone https://github.com/stacy-wk/Weather-App-By-Stacy.git
+   cd Weather-Dashboard
    ```
 2. Install dependencies:
    ```sh
